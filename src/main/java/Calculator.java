@@ -21,5 +21,6 @@ public class Calculator {
             result *= a;
         }
         return result;
+        ////
     }
 }
