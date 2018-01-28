@@ -35,4 +35,8 @@ public class Calculator {
     public double cubeRoot(double a) {
         return Math.cbrt(a);
     }
+
+    public static void main(String[] args) {
+        System.out.println(999199.1231231234 == 999199.1231231235);
+    }
 }
