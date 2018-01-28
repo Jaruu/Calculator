@@ -39,4 +39,12 @@ public class Calculator {
     public static void main(String[] args) {
         System.out.println(999199.1231231234 == 999199.1231231235);
     }
+
+    public double squareRoott(double a) {
+        return Math.sqrt(a);
+    }
+
+    public double cubeRoott(double a) {
+        return Math.cbrt(a);
+    }
 }
